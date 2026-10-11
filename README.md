@@ -4,13 +4,13 @@
 
 **Live demo:** [https://openart-three.vercel.app](https://openart-three.vercel.app)
 
+**Repository:** [https://github.com/whynotartmoney/diffcast-co](https://github.com/whynotartmoney/diffcast-co)
+
 ![Diffcast demo reel](docs/demo.gif)
 
 Diffcast turns a code change into a short film: a title card, the files that moved, the hunks themselves, one line held up to the light, and a last frame of the numbers. It runs in the browser. Export a GIF. Nothing to install.
 
 The three reels on the landing page are curated highlights of public releases — React 16.8, Next.js 13, and Svelte 5. They play with the network off. A public GitHub compare, commit, or pull URL can be fetched without a token; if GitHub refuses, paste the before and after instead.
-
-This GitHub repository is currently named **openart**. The product is **Diffcast**. The repo may be renamed later (for example to a `*-co` name); the app, license, and these docs stay Diffcast.
 
 ## Try it locally
 
@@ -82,9 +82,9 @@ lib/export-gif.ts       gifenc, shared palette
 
 **線上示範：** [https://openart-three.vercel.app](https://openart-three.vercel.app)
 
-Diffcast 把程式碼變更剪成一支短片：片頭、動過的檔案、逐段 hunk、被放大的那一行，最後是新增與刪除的數字。全部在瀏覽器裡完成，可匯出 GIF，不用安裝。
+**GitHub repo：** [https://github.com/whynotartmoney/diffcast-co](https://github.com/whynotartmoney/diffcast-co)
 
-這個 GitHub repo 目前叫做 **openart**，產品名稱是 **Diffcast**。之後可以改名（例如改成 `*-co`）；應用程式、授權與這份說明維持 Diffcast。
+Diffcast 把程式碼變更剪成一支短片：片頭、動過的檔案、逐段 hunk、被放大的那一行，最後是新增與刪除的數字。全部在瀏覽器裡完成，可匯出 GIF，不用安裝。
 
 首頁內建三支著名公開發行的精選片段（React 16.8、Next.js 13、Svelte 5），斷線也能播放。也可以貼公開的 compare、commit 或 pull URL；GitHub 若拒絕（速率限制、私人倉庫），改貼 before / after 程式碼即可。私人倉庫不在這個版本的範圍裡。
 
