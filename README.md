@@ -2,7 +2,7 @@
 
 **Carbon for motion.** Paste a GitHub compare URL, get a shareable cinematic diff reel.
 
-**Live demo:** [https://openart-three.vercel.app](https://openart-three.vercel.app)
+**Live demo:** [https://diffcast-co.vercel.app](https://diffcast-co.vercel.app)
 
 **Repository:** [https://github.com/whynotartmoney/diffcast-co](https://github.com/whynotartmoney/diffcast-co)
 
@@ -14,7 +14,7 @@ The three reels on the landing page are curated highlights of public releases �
 
 ## Try it locally
 
-The same app is already running at [https://openart-three.vercel.app](https://openart-three.vercel.app). To run it on your machine:
+The same app is already running at [https://diffcast-co.vercel.app](https://diffcast-co.vercel.app). To run it on your machine:
 
 ```bash
 npm install
@@ -37,7 +37,7 @@ No environment variables are required. Demos never call GitHub.
 
 ## Deploy on Vercel
 
-Production: [https://openart-three.vercel.app](https://openart-three.vercel.app).
+Production: [https://diffcast-co.vercel.app](https://diffcast-co.vercel.app).
 
 Import the repository. Framework preset: Next.js. Build command: `npm run build`. Leave environment variables empty.
 
@@ -80,7 +80,7 @@ lib/export-gif.ts       gifenc, shared palette
 
 **一句話：** 貼上 GitHub compare URL，得到一支可分享的差分短片。
 
-**線上示範：** [https://openart-three.vercel.app](https://openart-three.vercel.app)
+**線上示範：** [https://diffcast-co.vercel.app](https://diffcast-co.vercel.app)
 
 **GitHub repo：** [https://github.com/whynotartmoney/diffcast-co](https://github.com/whynotartmoney/diffcast-co)
 
@@ -90,7 +90,7 @@ Diffcast 把程式碼變更剪成一支短片：片頭、動過的檔案、逐�
 
 ### 本地執行
 
-線上示範已在 [https://openart-three.vercel.app](https://openart-three.vercel.app)。本機執行：
+線上示範已在 [https://diffcast-co.vercel.app](https://diffcast-co.vercel.app)。本機執行：
 
 ```bash
 npm install
@@ -101,7 +101,7 @@ npm run dev
 
 ### 部署到 Vercel
 
-目前部署：[https://openart-three.vercel.app](https://openart-three.vercel.app)。
+目前部署：[https://diffcast-co.vercel.app](https://diffcast-co.vercel.app)。
 
 匯入這個 repo，框架選 Next.js，建置指令 `npm run build`。不需要任何環境變數。`/api/compare` 用未驗證的 Octokit 讀公開 GitHub API；示範片段與貼上模式不依賴它。
 
