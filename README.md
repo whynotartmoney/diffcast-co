@@ -2,6 +2,8 @@
 
 **Carbon for motion.** Paste a GitHub compare URL, get a shareable cinematic diff reel.
 
+**Live demo:** [https://openart-three.vercel.app](https://openart-three.vercel.app)
+
 ![Diffcast demo reel](docs/demo.gif)
 
 Diffcast turns a code change into a short film: a title card, the files that moved, the hunks themselves, one line held up to the light, and a last frame of the numbers. It runs in the browser. Export a GIF. Nothing to install.
@@ -11,6 +13,8 @@ The three reels on the landing page are curated highlights of public releases �
 This GitHub repository is currently named **openart**. The product is **Diffcast**. The repo may be renamed later (for example to a `*-co` name); the app, license, and these docs stay Diffcast.
 
 ## Try it locally
+
+The same app is already running at [https://openart-three.vercel.app](https://openart-three.vercel.app). To run it on your machine:
 
 ```bash
 npm install
@@ -32,6 +36,8 @@ npm start
 No environment variables are required. Demos never call GitHub.
 
 ## Deploy on Vercel
+
+Production: [https://openart-three.vercel.app](https://openart-three.vercel.app).
 
 Import the repository. Framework preset: Next.js. Build command: `npm run build`. Leave environment variables empty.
 
@@ -74,6 +80,8 @@ lib/export-gif.ts       gifenc, shared palette
 
 **一句話：** 貼上 GitHub compare URL，得到一支可分享的差分短片。
 
+**線上示範：** [https://openart-three.vercel.app](https://openart-three.vercel.app)
+
 Diffcast 把程式碼變更剪成一支短片：片頭、動過的檔案、逐段 hunk、被放大的那一行，最後是新增與刪除的數字。全部在瀏覽器裡完成，可匯出 GIF，不用安裝。
 
 這個 GitHub repo 目前叫做 **openart**，產品名稱是 **Diffcast**。之後可以改名（例如改成 `*-co`）；應用程式、授權與這份說明維持 Diffcast。
@@ -81,6 +89,8 @@ Diffcast 把程式碼變更剪成一支短片：片頭、動過的檔案、逐�
 首頁內建三支著名公開發行的精選片段（React 16.8、Next.js 13、Svelte 5），斷線也能播放。也可以貼公開的 compare、commit 或 pull URL；GitHub 若拒絕（速率限制、私人倉庫），改貼 before / after 程式碼即可。私人倉庫不在這個版本的範圍裡。
 
 ### 本地執行
+
+線上示範已在 [https://openart-three.vercel.app](https://openart-three.vercel.app)。本機執行：
 
 ```bash
 npm install
@@ -90,6 +100,8 @@ npm run dev
 打開 [http://127.0.0.1:43219](http://127.0.0.1:43219)。空白鍵播放／暫停，方向鍵微調時間軸，滑桿也可以。**Export GIF** 會在瀏覽器裡做出約 8 秒、1280×720 的循環 GIF。**Copy link** 把示範與 GitHub URL 放在 query，把貼上的程式碼壓縮進 hash。
 
 ### 部署到 Vercel
+
+目前部署：[https://openart-three.vercel.app](https://openart-three.vercel.app)。
 
 匯入這個 repo，框架選 Next.js，建置指令 `npm run build`。不需要任何環境變數。`/api/compare` 用未驗證的 Octokit 讀公開 GitHub API；示範片段與貼上模式不依賴它。
 
