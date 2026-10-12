@@ -567,6 +567,14 @@ export function Studio() {
 
       <footer className="mt-12 flex flex-col gap-2 border-t border-white/10 pt-4 text-xs text-[#9a948a] sm:flex-row sm:items-center sm:justify-between">
         <p>Highlights, not full diffs. The movie is the point.</p>
+        <a
+          href="https://buymeacoffee.com/whynotartmoney"
+          target="_blank"
+          rel="noreferrer"
+          className="text-[#e8b86d] underline-offset-4 hover:underline"
+        >
+          Buy me a coffee
+        </a>
         <p lang="zh-Hant">把 compare URL 貼上，看成一支短片，再匯出 GIF。</p>
       </footer>
     </div>

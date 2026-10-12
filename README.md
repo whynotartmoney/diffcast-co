@@ -78,6 +78,10 @@ lib/demos.ts            offline reels
 lib/export-gif.ts       gifenc, shared palette
 ```
 
+## Support / Buy me a coffee
+
+If Diffcast is useful, you can support it at [https://buymeacoffee.com/whynotartmoney](https://buymeacoffee.com/whynotartmoney).
+
 ## 繁體中文
 
 [MIT](LICENSE) · [線上示範](https://diffcast-co.vercel.app) · [GitHub Stars](https://github.com/whynotartmoney/diffcast-co/stargazers)
@@ -116,6 +120,10 @@ npm run dev
 - 在 `lib/export-gif.ts` 旁邊加 WebM
 - `?` 快捷鍵說明
 - 在 `lib/demos.ts` 再加一支精選 reel
+
+### 支持
+
+如果這個專案有幫上忙：[https://buymeacoffee.com/whynotartmoney](https://buymeacoffee.com/whynotartmoney)
 
 ## License
 
