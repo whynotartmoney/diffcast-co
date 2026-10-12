@@ -1,5 +1,7 @@
 # Diffcast
 
+[![MIT License](https://img.shields.io/badge/license-MIT-111111)](LICENSE) [![Live demo](https://img.shields.io/badge/demo-diffcast--co.vercel.app-111111)](https://diffcast-co.vercel.app) [![GitHub stars](https://img.shields.io/github/stars/whynotartmoney/diffcast-co?style=flat&color=111111)](https://github.com/whynotartmoney/diffcast-co/stargazers)
+
 **Carbon for motion.** Paste a GitHub compare URL, get a shareable cinematic diff reel.
 
 **Live demo:** [https://diffcast-co.vercel.app](https://diffcast-co.vercel.app)
@@ -77,6 +79,8 @@ lib/export-gif.ts       gifenc, shared palette
 ```
 
 ## 繁體中文
+
+[MIT](LICENSE) · [線上示範](https://diffcast-co.vercel.app) · [GitHub Stars](https://github.com/whynotartmoney/diffcast-co/stargazers)
 
 **一句話：** 貼上 GitHub compare URL，得到一支可分享的差分短片。
 
