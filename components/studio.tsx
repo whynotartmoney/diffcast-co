@@ -1,10 +1,11 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Link2, LoaderCircle, Pause, Play, RotateCcw } from "lucide-react";
+import { Link2, LoaderCircle, Pause, Play, RotateCcw, Star } from "lucide-react";
+import { cn } from "cn";
 
 import { ReelStage } from "@/components/reel-stage";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Slider } from "@/components/ui/slider";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -16,6 +17,8 @@ import { reelFromPaste } from "@/lib/reel";
 import { decodeShare, encodeShare, replaceShareUrl, type ShareState } from "@/lib/share";
 import { beatAt, buildTimeline, type Timeline } from "@/lib/timeline";
 import type { DiffReel } from "@/lib/types";
+
+const REPO_URL = "https://github.com/whynotartmoney/diffcast-co";
 
 const BEFORE_PLACEHOLDER = `function greet(name) {
   return "Hello, " + name;
@@ -310,12 +313,27 @@ export function Studio() {
 
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-[1240px] flex-col px-4 py-5 sm:px-6 sm:py-7">
-      <header className="flex items-center justify-between gap-4">
-        <div className="flex items-baseline gap-3">
+      <header className="flex items-center justify-between gap-3">
+        <div className="flex min-w-0 items-baseline gap-3">
           <span className="font-mono text-[13px] tracking-[0.22em] text-[#e7e1d6]">DIFFCAST</span>
           <span className="hidden text-sm text-[#9a948a] sm:inline">Carbon for motion</span>
         </div>
-        <p className="font-mono text-[11px] tracking-[0.16em] text-[#9a948a]">MIT · NO INSTALL</p>
+        <div className="flex shrink-0 items-center gap-2.5 sm:gap-3">
+          <p className="hidden font-mono text-[11px] tracking-[0.16em] text-[#9a948a] sm:block">MIT · NO INSTALL</p>
+          <a
+            href={REPO_URL}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Star on GitHub (opens in a new tab)"
+            className={cn(
+              buttonVariants({ variant: "outline", size: "sm" }),
+              "font-mono text-[11px] tracking-[0.12em] text-[#cfc8bb]",
+            )}
+          >
+            <Star aria-hidden="true" className="text-[#e8b86d]" />
+            Star on GitHub
+          </a>
+        </div>
       </header>
 
       <div className="mt-8 max-w-[720px]">
